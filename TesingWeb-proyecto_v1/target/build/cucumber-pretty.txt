@@ -1,0 +1,27 @@
+@DEMOQA_FEATURE
+Característica: Validar formularios de la pagina DemoQA
+Como usuario del sistema demoQA
+Quiero validar el funcionamiento de los usuarios
+Para realizar pruebas de regresión
+
+  @demo_search_google
+  Esquema del escenario: Buscar la palabra automatizacion en google [90m# src/test/resources/web/SearchGoogle.feature:9[0m
+    [36mDado Ingresamos a la pagina de google en el navegador "<Navegador>" de chrome[0m
+    [36mCuando Ingresa la palabra "<$Palabra>" en el buscador[0m
+    [36mY click en el boton Buscar[0m
+    [36mEntonces Me muestra los resultados relacionados de dicha busqueda[0m
+    [36mY click en la web de wikipedia[0m
+    [36mY localizar el año que se hizo el primer proceso automático[0m
+    [36mY capturo la pagina de wikipedia[0m
+
+    Ejemplos: 
+
+  @DEMOQA_FEATURE @demo_search_google
+  Esquema del escenario: Buscar la palabra automatizacion en google          [90m# src/test/resources/web/SearchGoogle.feature:19[0m
+    [32mDado [0m[32mIngresamos a la pagina de google en el navegador "[0m[32m[1mchrome[0m[32m" de chrome[0m [90m# SearchGoogleStepDefinition.ingresamosALaPaginaDeGoogleEnElNavegadorDeChrome(String)[0m
+    [32mCuando [0m[32mIngresa la palabra "[0m[32m[1mautomatización[0m[32m" en el buscador[0m                [90m# SearchGoogleStepDefinition.ingresaLaPalabraEnElBuscador(String)[0m
+    [32mY [0m[32mclick en el boton Buscar[0m                                               [90m# SearchGoogleStepDefinition.clickEnElBotonBuscar()[0m
+    [32mEntonces [0m[32mMe muestra los resultados relacionados de dicha busqueda[0m        [90m# SearchGoogleStepDefinition.meMuestraLosResultadosRelacionadosDeDichaBusqueda()[0m
+    [32mY [0m[32mclick en la web de wikipedia[0m                                           [90m# SearchGoogleStepDefinition.clickEnLaWebDeWikipedia()[0m
+    [32mY [0m[32mlocalizar el año que se hizo el primer proceso automático[0m              [90m# SearchGoogleStepDefinition.localizarElAñoQueSeHizoElPrimerProcesoAutomático()[0m
+    [32mY [0m[32mcapturo la pagina de wikipedia[0m                                         [90m# SearchGoogleStepDefinition.capturoLaPaginaDeWikipedia()[0m

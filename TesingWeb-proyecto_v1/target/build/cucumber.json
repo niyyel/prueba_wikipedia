@@ -1,0 +1,136 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 19,
+        "name": "Buscar la palabra automatizacion en google",
+        "description": "",
+        "id": "validar-formularios-de-la-pagina-demoqa;buscar-la-palabra-automatizacion-en-google;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5391583200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Ingresamos a la pagina de google en el navegador \"chrome\" de chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 50
+                }
+              ],
+              "location": "SearchGoogleStepDefinition.ingresamosALaPaginaDeGoogleEnElNavegadorDeChrome(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2349254300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Ingresa la palabra \"automatización\" en el buscador",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automatización",
+                  "offset": 20
+                }
+              ],
+              "location": "SearchGoogleStepDefinition.ingresaLaPalabraEnElBuscador(String)"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 3305594600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click en el boton Buscar",
+            "match": {
+              "location": "SearchGoogleStepDefinition.clickEnElBotonBuscar()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 4663900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Me muestra los resultados relacionados de dicha busqueda",
+            "match": {
+              "location": "SearchGoogleStepDefinition.meMuestraLosResultadosRelacionadosDeDichaBusqueda()"
+            },
+            "keyword": "Entonces "
+          },
+          {
+            "result": {
+              "duration": 3415497800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click en la web de wikipedia",
+            "match": {
+              "location": "SearchGoogleStepDefinition.clickEnLaWebDeWikipedia()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1607581800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "localizar el año que se hizo el primer proceso automático",
+            "match": {
+              "location": "SearchGoogleStepDefinition.localizarElAñoQueSeHizoElPrimerProcesoAutomático()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2159800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "capturo la pagina de wikipedia",
+            "match": {
+              "location": "SearchGoogleStepDefinition.capturoLaPaginaDeWikipedia()"
+            },
+            "keyword": "Y "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DEMOQA_FEATURE"
+          },
+          {
+            "name": "@demo_search_google"
+          }
+        ]
+      }
+    ],
+    "name": "Validar formularios de la pagina DemoQA",
+    "description": "Como usuario del sistema demoQA\nQuiero validar el funcionamiento de los usuarios\nPara realizar pruebas de regresión",
+    "id": "validar-formularios-de-la-pagina-demoqa",
+    "keyword": "Característica",
+    "uri": "src/test/resources/web/SearchGoogle.feature",
+    "tags": [
+      {
+        "name": "@DEMOQA_FEATURE",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

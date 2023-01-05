@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Validar el funcionamiento de la creacion de una cuenta en la pagina demoblaze" skipped="0" tests="1" time="0.0" timestamp="2023-01-03 11:18:32"><testcase name="Validar el funcionamiento de la creacion de una cuenta"><error message="Timed out after 15 seconds. Element not found&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-83885D7', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 15 seconds. Element not found
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-83885D7', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: driver.version: unknown</error><system-err>Timed out after 15 seconds. Element not found
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-83885D7', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352'
+Driver info: driver.version: unknown&#13;
+com.bdd.page.DemoBlazePage.elUsuarioHaceClickEnElBotonSingnUp(DemoBlazePage.java:32)&#13;
+com.bdd.step.DemoBlazeStep.elUsuarioHaceClickEnElBotonSingnUp(DemoBlazeStep.java:18)&#13;
+com.bdd.stepdefinition.DemoBlazeStepDefinition.elUsuarioHaceClickEnElBotonSingnUp(DemoBlazeStepDefinition.java:22)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

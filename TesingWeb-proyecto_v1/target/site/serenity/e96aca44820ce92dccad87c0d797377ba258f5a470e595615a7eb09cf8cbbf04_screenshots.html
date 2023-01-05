@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="921cd0025ef9ad8fe3b202f3ddd1055d62a67d7eba6260a68638c1f6a62d9beb.html">Validar Formularios De La Pagina DemoQA</a></span>
+                > <span class="truncate-60"><a
+                    href="e96aca44820ce92dccad87c0d797377ba258f5a470e595615a7eb09cf8cbbf04.html">: : Validar formulario de Elements TexBox de la pagina DemoQA </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-05-2022 18:16</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validar Formularios De La Pagina DemoQA</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario del sistema demoQA
+Quiero validar el funcionamiento de los usuarios
+Para realizar pruebas de regresión
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="15406b6d37f3eb6b7354bd227cb95e04fcf0e1541d781f50e50d7162046d1889.html">DEMO ESCENARIO 02 PARAMETROS
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="f6c608061b845f41657efe61fe49498c9d8a63d5180aa8e850829427928cd553.html">DEMOQA FEATURE
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">: : Validar formulario de Elements TexBox de la pagina DemoQA
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que aperturamos la pagina web DemoQA en el navegador de "&lt;Navegador&gt;"<br>Cuando realizamos click en el boton Elements<br>Entonces damos click en el el menu TextBox<br>Y Escribimos "&lt;NOMBRE&gt;" David en el cuadro de texto FullName<br>Y Escribimos "&lt;EMAIL&gt;" en el cuadro de texto Email<br>Y Escribimos "&lt;CURRENT ADDRESS&gt;" en Current Address y "&lt;PERMANENT ADDRESS&gt;" en Permanent Address<br>Cuando realizamos click en el botón Submit<br>Entonces Validamos que los resultados esperados de Nombre "&lt;NOMBRE&gt;", email "&lt;EMAIL&gt;", current address "&lt;CURRENT ADDRESS&gt;", permanent address "&lt;PERMANENT ADDRESS&gt;" sean igual al resultado obtenido</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a043daa8574027de2fc366b3b0f92c97001bc4959f8f0c8025cb5772588cf185.png" title=" Example #1: {Navegador=chrome, NOMBRE=Zally, EMAIL=zally@gmail.com, CURRENT ADDRESS=Tingo Maria, PERMANENT ADDRESS=Tingo Tingo}" width="1366"/>
+                <img src="a043daa8574027de2fc366b3b0f92c97001bc4959f8f0c8025cb5772588cf185.png" title=" Cuando realizamos click en el boton Elements" width="1366"/>
+                <img src="a043daa8574027de2fc366b3b0f92c97001bc4959f8f0c8025cb5772588cf185.png" title=" Realizamos click en el boton elements" width="1366"/>
+                <img src="a043daa8574027de2fc366b3b0f92c97001bc4959f8f0c8025cb5772588cf185.png" title=" Cuando realizamos click en el boton Elements (completed)" width="1366"/>
+                <img src="1e8edd58d75b8b20f8ca666675e2d9cbdcfefcacb1c939904537cbdcbde725dc.png" title=" Entonces damos click en el el menu TextBox" width="1366"/>
+                <img src="26a49a066b335703a813044b4f31b54eb1f9ac0806975121a0ea8263087dc019.png" title=" Y Escribimos &quot;Zally&quot; David en el cuadro de texto FullName" width="1366"/>
+                <img src="e9e8101a644a392734cbc3536eecb8b3ba3fffdc76ff80bedb8b66878852bd5f.png" title=" Y Escribimos &quot;zally@gmail.com&quot; en el cuadro de texto Email" width="1366"/>
+                <img src="371ab701f12fbf15beecae0023d23d2335aa9b36cfd842f8752d1c941720c69e.png" title=" Y Escribimos &quot;Tingo Maria&quot; en Current Address y &quot;Tingo Tingo&quot; en Permanent Address" width="1366"/>
+                <img src="6f103756d83514aba356aa02055de46b02c6bf57a02980f47de2571d56acc1ec.png" title=" Cuando realizamos click en el bot&oacute;n Submit" width="1366"/>
+                <img src="a69123dfd471adcf1193962c171115bb7a42e1d815a2e5f6dbd486a383c5b9ae.png" title=" Entonces Validamos que los resultados esperados de Nombre &quot;Zally&quot;, email &quot;zally@gmail.com&quot;, current address &quot;Tingo Maria&quot;, permanent address &quot;Tingo Tingo&quot; sean igual al resultado obtenido" width="1366"/>
+                <img src="a69123dfd471adcf1193962c171115bb7a42e1d815a2e5f6dbd486a383c5b9ae.png" title=" Example #1: {Navegador=chrome, NOMBRE=Zally, EMAIL=zally@gmail.com, CURRENT ADDRESS=Tingo Maria, PERMANENT ADDRESS=Tingo Tingo} (completed)" width="1366"/>
+                <img src="e89ecf7473f058876dbe98ef2f46b34b0c50c020bda34e10742e63d1006213bc.png" title=" Example #2: {Navegador=edge, NOMBRE=Jazmin, EMAIL=jazmin@gmail.com, CURRENT ADDRESS=Trujillo, PERMANENT ADDRESS=Trujillo Trujillo}" width="1366"/>
+                <img src="e89ecf7473f058876dbe98ef2f46b34b0c50c020bda34e10742e63d1006213bc.png" title=" Cuando realizamos click en el boton Elements" width="1366"/>
+                <img src="e89ecf7473f058876dbe98ef2f46b34b0c50c020bda34e10742e63d1006213bc.png" title=" Realizamos click en el boton elements" width="1366"/>
+                <img src="e89ecf7473f058876dbe98ef2f46b34b0c50c020bda34e10742e63d1006213bc.png" title=" Cuando realizamos click en el boton Elements (completed)" width="1366"/>
+                <img src="ea5bbc4aeb16dd15cacae8f5f121b950c18284390ebbde18cebad58b415de279.png" title=" Entonces damos click en el el menu TextBox" width="1366"/>
+                <img src="45a6df5d44173d3755f3ae8fc63ef193157539dab756e5acae286d4debd0b100.png" title=" Y Escribimos &quot;Jazmin&quot; David en el cuadro de texto FullName" width="1366"/>
+                <img src="f99ef192f0b7f42673684dc4f07578b6f41ded2615965cadd0302560137bfbb6.png" title=" Y Escribimos &quot;jazmin@gmail.com&quot; en el cuadro de texto Email" width="1366"/>
+                <img src="9e5a15b7d5a25f9a72bba1bb9f6a43a4bc92fdc9361d4e7d46e991ebd1f89b12.png" title=" Y Escribimos &quot;Trujillo&quot; en Current Address y &quot;Trujillo Trujillo&quot; en Permanent Address" width="1366"/>
+                <img src="11f2ebba99689a3fdf7314a39bb0a34002e9bcc31bb035e49634e89c6cab1e46.png" title=" Cuando realizamos click en el bot&oacute;n Submit" width="1366"/>
+                <img src="498ebcb6544a5a2b74e8f9e115cfd2668499a0573d6afbed928d508f9bbb8395.png" title=" Entonces Validamos que los resultados esperados de Nombre &quot;Jazmin&quot;, email &quot;jazmin@gmail.com&quot;, current address &quot;Trujillo&quot;, permanent address &quot;Trujillo Trujillo&quot; sean igual al resultado obtenido" width="1366"/>
+                <img src="498ebcb6544a5a2b74e8f9e115cfd2668499a0573d6afbed928d508f9bbb8395.png" title=" Example #2: {Navegador=edge, NOMBRE=Jazmin, EMAIL=jazmin@gmail.com, CURRENT ADDRESS=Trujillo, PERMANENT ADDRESS=Trujillo Trujillo} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.54</span>
+</div>
+</body>
+</html>
